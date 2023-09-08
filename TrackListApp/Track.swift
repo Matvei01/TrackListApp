@@ -2,8 +2,10 @@
 //  Track.swift
 //  TrackListApp
 //
-//  Created by Matvei Khlestov on 02.06.2022.
+//  Created by Matvei Khlestov on 08.09.2023.
 //
+
+import Foundation
 
 struct Track {
     let artist: String
@@ -12,7 +14,9 @@ struct Track {
     var title: String {
         "\(artist) - \(song)"
     }
-    
+}
+
+extension Track {
     static func getTrackList() -> [Track] {
         [
             Track(artist: "Alberto Ruiz", song: "7 Elements (Original Mix)"),
