@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TrackDetailsViewController: UIViewController {
+final class TrackDetailsViewController: UIViewController {
     
     // MARK: - Public Properties
     var track: Track!

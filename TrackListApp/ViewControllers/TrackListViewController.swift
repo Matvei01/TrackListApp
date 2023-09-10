@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TrackListViewController: UITableViewController {
+final class TrackListViewController: UITableViewController {
     
     // MARK: - Private Properties
     private var trackList = Track.getTrackList()

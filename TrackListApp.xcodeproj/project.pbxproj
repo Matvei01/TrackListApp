@@ -58,16 +58,56 @@
 		A019F7D528477C1700922354 /* TrackListApp */ = {
 			isa = PBXGroup;
 			children = (
-				A019F7D628477C1700922354 /* AppDelegate.swift */,
-				A019F7D828477C1700922354 /* SceneDelegate.swift */,
-				A05C35C02AA9A6430005A8D4 /* TrackListViewController.swift */,
-				A05C35C62AAB648B0005A8D4 /* TrackDetailsViewController.swift */,
-				A05C35C42AAB50E70005A8D4 /* Track.swift */,
-				A019F7DF28477C1700922354 /* Assets.xcassets */,
-				A019F7E128477C1700922354 /* LaunchScreen.storyboard */,
-				A019F7E428477C1700922354 /* Info.plist */,
+				A0819E262AAE549000ECD1DF /* ViewControllers */,
+				A0819E272AAE54DE00ECD1DF /* Models */,
+				A0819E292AAE550C00ECD1DF /* LaunchScreen */,
+				A0819E282AAE54F000ECD1DF /* Resources */,
+				A0819E252AAE547100ECD1DF /* App */,
 			);
 			path = TrackListApp;
+			sourceTree = "<group>";
+		};
+		A0819E252AAE547100ECD1DF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A019F7D628477C1700922354 /* AppDelegate.swift */,
+				A019F7D828477C1700922354 /* SceneDelegate.swift */,
+				A019F7E428477C1700922354 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A0819E262AAE549000ECD1DF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A05C35C02AA9A6430005A8D4 /* TrackListViewController.swift */,
+				A05C35C62AAB648B0005A8D4 /* TrackDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0819E272AAE54DE00ECD1DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A05C35C42AAB50E70005A8D4 /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0819E282AAE54F000ECD1DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A019F7DF28477C1700922354 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0819E292AAE550C00ECD1DF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A019F7E128477C1700922354 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZ329TNU43;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -316,7 +356,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZ329TNU43;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
